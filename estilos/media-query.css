@@ -8,7 +8,7 @@ Desktop: 1025px até 1366px
 Grandes telas: 1367px ou acima  */
 
 
-@media screen and (max-width: 937px) {
+@media screen and (max-width: 1041px) {
     nav h1 {
         font-size: 2em;
     }
@@ -22,9 +22,9 @@ Grandes telas: 1367px ou acima  */
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width:481px) {
     nav h1 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     ul.sidebar {
