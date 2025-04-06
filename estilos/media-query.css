@@ -31,6 +31,10 @@ Grandes telas: 1367px ou acima  */
         height: 90px;
     }
 
+    nav a {
+        margin: 20px 10px;
+    }
+
     ul.sidebar {
         width: 100%;
     }
