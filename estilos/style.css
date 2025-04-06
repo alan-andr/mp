@@ -4,7 +4,7 @@
 
 :root {
     --title: 'Manrope', Arial, Helvetica, sans-serif; 
-    --link: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    --link: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -91,3 +91,5 @@ ul.sidebar {
 .menu-bottom {
     display: none;
 }
+
+
