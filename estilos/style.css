@@ -92,4 +92,6 @@ ul.sidebar {
     display: none;
 }
 
-
+main {
+    padding: 10px;
+}
