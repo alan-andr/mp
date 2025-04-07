@@ -28,13 +28,9 @@ header {
     justify-content: space-around;
     align-items: center;
 
-    height: 70px;
+    height: 100px;
 
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
-}
-
-header > h1 {
-    margin: 0 0 0 15px;
 }
 
 header > h1 > a {
@@ -43,6 +39,7 @@ header > h1 > a {
     font-variant: small-caps;
     text-decoration: none;
     font-size: 50px;
+    letter-spacing: 2px;
     color: black; /* Cor do texto */
     text-shadow: 
     1px 1px 0px white,
@@ -69,6 +66,8 @@ nav > ul > li > a {
     text-decoration: none;
     color: black;
     font-family: var(--title);
+    padding: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.077);
 
     &:hover {
         color: white;
