@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+Pequenas telas: até 480px
+Celular: de 481px até 768px
+Tablet: 768px até 1024px
+Desktop: 1025px até 1366px
+Grandes telas: 1367px ou acima  */
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 80px;
+    }
+
+    header > h1 > a {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header > h1 > a {
+        font-size: 35px;
+    }
+
+    .hideOnmobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header > h1 > a {
+        font-size: 35px;
+    }
+}
