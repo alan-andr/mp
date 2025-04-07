@@ -9,11 +9,15 @@ Grandes telas: 1367px ou acima  */
 
 @media screen and (max-width: 480px) {
     header {
-        height: 80px;
+        height: 90px;
     }
 
     header > h1 > a {
         font-size: 35px;
+    }
+
+    .sidebar {
+        width: 100%;
     }
 }
 
@@ -33,6 +37,6 @@ Grandes telas: 1367px ou acima  */
 
 @media screen and (max-width: 1024px) {
     header > h1 > a {
-        font-size: 35px;
+        font-size: 40px;
     }
 }
