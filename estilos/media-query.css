@@ -12,10 +12,6 @@ Grandes telas: 1367px ou acima  */
         height: 100px;
     }
 
-    header > h1 {
-        padding: 10px;
-    }
-
     header > h1 > a {
         font-size: 35px;
     }

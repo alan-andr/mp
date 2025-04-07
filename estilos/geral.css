@@ -33,6 +33,10 @@ header {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
 }
 
+header > h1 {
+    padding: 10px;
+}
+
 header > h1 > a {
     font-family: var(--title);
     font-weight: bold;
