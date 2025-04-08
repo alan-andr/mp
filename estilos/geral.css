@@ -19,6 +19,7 @@ body, html {
     width: 100vw;
     height: 100vh;
     height: 100dvh;
+    background: whitesmoke;
 }
 
 header {
@@ -87,7 +88,7 @@ ul.sidebar {
     width: 250px;
     height: 100vh;
     
-    background: #fe370067;
+    background: linear-gradient(to right top, #FE5A00,#FDA100);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.082);
 
@@ -103,4 +104,8 @@ ul.sidebar > li {
 
 .menu-button {
     display: none;
+}
+
+main {
+    padding: 10px;
 }
