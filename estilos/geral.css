@@ -7,6 +7,9 @@
 :root {
     --title: 'Manrope',Arial, Helvetica, sans-serif;
     --text: 'Jura',Arial, Helvetica, sans-serif;
+
+    --cor01: #EEF5DB;
+    --cor02: #FE5F55;
 }
 
 * {
@@ -19,7 +22,7 @@ body, html {
     width: 100vw;
     height: 100vh;
     height: 100dvh;
-    background: whitesmoke;
+    background: white;
 }
 
 header {
@@ -108,4 +111,48 @@ ul.sidebar > li {
 
 main {
     padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+section.text-media {
+    background-color: #CDD6DD;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.326);
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 50vh;
+}
+
+article.text {
+    font-family: var(--text);
+    width: 300px;
+    text-align: justify;
+    line-height: 1.5em;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 250px;
+        height: 3px;
+        background: linear-gradient(to left bottom, #FF0100, #FDA100);
+        bottom: -15px;
+        right: 25px;
+    }
+
+    & > p {
+        text-indent: 1em;
+    }
+}
+
+article.text > h2 {
+    text-align: center;
+    margin: 0 0 20px 0;
 }
