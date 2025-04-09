@@ -118,7 +118,7 @@ img {
 }
 
 section.text-media {
-    background-color: #CDD6DD;
+    background-color: lightgray;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.326);
     padding: 10px;
     border-radius: 10px;
@@ -149,10 +149,12 @@ article.text {
 
     & > p {
         text-indent: 1em;
+        font-weight: normal;
     }
 }
 
 article.text > h2 {
     text-align: center;
     margin: 0 0 20px 0;
+    position: relative;
 }
