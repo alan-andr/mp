@@ -20,6 +20,13 @@ Grandes telas: 1367px ou acima  */
     ul.sidebar {
         width: 50%;
     }
+
+    section.text-media {
+        height: 90vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -33,6 +40,13 @@ Grandes telas: 1367px ou acima  */
 
     .menu-button {
         display: block;
+    }
+
+    section.text-media {
+        height: 90vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
     }
 }
 
