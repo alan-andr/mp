@@ -34,7 +34,7 @@ header {
 
     height: 10vh;
 
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.289);
 }
 
 
@@ -71,13 +71,25 @@ nav > ul > li > a {
     text-decoration: none;
     font-family: var(--title);
     font-size: 1em;
-    color: white;
+    color: rgb(40, 40, 40);
     padding: 3px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.077);
 
+    position: relative;
+
     &:hover {
-        color: rgb(48, 48, 48);
-        transition: color .6s;
+        color: white;
+    }
+
+    &:hover::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        
     }
 }
 
@@ -107,9 +119,11 @@ ul.sidebar > li {
     display: none;
 }
 
+main {
+    margin-top: 1px;
+}
 
 section.text-media {
-    margin: auto;
 
     height: 80vh;
     display: flex;
@@ -128,16 +142,17 @@ section.text-media {
 }
 
 .text {
+    position: relative;
     width: 250px;
 
     text-align: justify;
     line-height: 1.3;
     text-indent: 1em;
-    
 }
 
 .media {
-    clip-path: circle(49%)
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
 }
 
 img {

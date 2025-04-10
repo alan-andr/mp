@@ -22,10 +22,14 @@ Grandes telas: 1367px ou acima  */
     }
 
     section.text-media {
-        height: 90vh;
+        height: 85vh;
         display: flex;
         flex-flow: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
+    }
+
+    section.text {
+        margin: 0 0 30px 0;
     }
 }
 
@@ -43,11 +47,12 @@ Grandes telas: 1367px ou acima  */
     }
 
     section.text-media {
-        height: 90vh;
+        height: 89vh;
         display: flex;
         flex-flow: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
+
 }
 
 @media screen and (max-width: 1024px) {
