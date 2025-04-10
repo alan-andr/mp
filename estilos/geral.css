@@ -32,21 +32,18 @@ header {
     justify-content: space-around;
     align-items: center;
 
-    height: 100px;
+    height: 10vh;
 
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.26);
 }
 
-header > h1 {
-    padding: 10px;
-}
 
-header > h1 > a {
+header > a.logo {
     font-family: var(--title);
     font-weight: bold;
     font-variant: small-caps;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 2em;
     letter-spacing: 2px;
     color: black; /* Cor do texto */
     text-shadow: 
@@ -72,14 +69,16 @@ nav > ul > li {
 
 nav > ul > li > a {
     text-decoration: none;
-    color: black;
+    font-weight: normal;
+    color: white;
     font-family: var(--title);
+    font-size: .9em;
     padding: 3px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.077);
 
     &:hover {
-        color: white;
-        transition: color .3s;
+        color: rgb(48, 48, 48);
+        transition: color .6s;
     }
 }
 
@@ -109,14 +108,6 @@ ul.sidebar > li {
     display: none;
 }
 
-main {
-    padding: 10px;
-}
-
-img {
-    width: 100%;
-}
-
 section.text-media {
     background-color: lightgray;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.326);
@@ -130,31 +121,3 @@ section.text-media {
     height: 50vh;
 }
 
-article.text {
-    font-family: var(--text);
-    width: 300px;
-    text-align: justify;
-    line-height: 1.5em;
-    position: relative;
-
-    &::before {
-        position: absolute;
-        content: '';
-        width: 250px;
-        height: 3px;
-        background: linear-gradient(to left bottom, #FF0100, #FDA100);
-        bottom: -15px;
-        right: 25px;
-    }
-
-    & > p {
-        text-indent: 1em;
-        font-weight: normal;
-    }
-}
-
-article.text > h2 {
-    text-align: center;
-    margin: 0 0 20px 0;
-    position: relative;
-}
