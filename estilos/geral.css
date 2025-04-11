@@ -77,10 +77,24 @@ nav > ul > li > a {
 
     position: relative;
 
-    &:hover {
-        color: white;
+    &::before {
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        transform: translateY(100%);
+        transition: transform .5s ease;
+    
     }
 
+    &:hover {
+        color: white;
+        transition-duration: .3s;
+    }
+    
     &:hover::before {
         position: absolute;
         content: '';
@@ -89,7 +103,7 @@ nav > ul > li > a {
         bottom: 0;
         left: 0;
         background-color: white;
-        
+        transform: translateY(0);
     }
 }
 
@@ -152,7 +166,6 @@ section.text-media {
 
 .media {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-
 }
 
 img {
