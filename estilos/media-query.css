@@ -38,14 +38,6 @@ Grandes telas: 1367px ou acima  */
         display: block;
     }
 
-    div.container {
-        display: flex;
-        flex-flow: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-
 }
 
 @media screen and (max-width: 1024px) {
