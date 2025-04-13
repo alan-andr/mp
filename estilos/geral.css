@@ -139,5 +139,27 @@ ul.sidebar > li {
 
 }
 
+section {
+    height: 70vh;
+
+    background-color: rgb(38, 38, 38);
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.hero-img {
+    
+
+    -webkit-mask-image: linear-gradient(to left,rgb( 0 0 0 / 0),
+     rgb( 0 0 0 / 0.5) 50%,
+      rgb( 0 0 0 / 0));
+
+    mask-image: linear-gradient(to left, rgb( 0 0 0 / 0),
+     rgb( 0 0 0 / .5) 50%,
+      rgb( 0 0 0 / 0));
+}
+
 
 
