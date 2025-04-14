@@ -141,7 +141,7 @@ section.text-media {
 }
 
 .text {
-    background: linear-gradient(50deg,#ff6a25, #FF0100);
+    background: linear-gradient(100deg, #FF7500,#FE4900, #FF9E00);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -156,13 +156,14 @@ section.text-media {
 }
 
 .text > h2 {
+    text-wrap: balance;
     font-size: 2.5em;
     margin-bottom: 1rem;
 }
 
 .text > p {
     font-size: 1em;
-    color: rgb(222, 222, 222);
+    color: rgb(213, 213, 213);
 }
 
 .media img {

@@ -44,7 +44,7 @@ Grandes telas: 1367px ou acima  */
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     header > a.logo {
         font-size: 1.5em;
