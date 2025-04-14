@@ -108,7 +108,7 @@ ul.sidebar {
     width: 250px;
     height: 100vh;
     
-    background: linear-gradient(to right top, #FE5A00,#FDA100);
+    background: linear-gradient(90deg, #FE5A00,#FDA100);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.082);
 
@@ -141,7 +141,7 @@ section.text-media {
 }
 
 .text {
-    background: linear-gradient(100deg, #FF7500,#FE4900, #FF9E00);
+    background: linear-gradient(100deg, #FF7500, #FF9E00, #FE4900);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
