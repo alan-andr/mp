@@ -22,9 +22,29 @@ Grandes telas: 1367px ou acima  */
         width: 50%;
     }
 
+    .text-media {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
+    .text-media {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        margin: 10rem 0;
+    }
+
+    .media {
+        -webkit-mask-image: linear-gradient(to top,rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 40%,rgb(0 0 0 / 0));
+        mask-image: linear-gradient(to top, rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 40%,rgb(0 0 0 / 0)); 
+    }
+}
+
+@media screen and (max-width: 800px) {
 
     header > a.logo {
         font-size: 1.5em;
@@ -38,29 +58,31 @@ Grandes telas: 1367px ou acima  */
         display: block;
     }
 
-    section.text-media {
-        display: flex;
-        flex-flow: column;
-        justify-content: space-around;
-
+    .text-media {
+        flex-direction: column;
+        text-align: center;
     }
-    div.text {
+
+    .text {
         margin: 10rem 0;
     }
 
-    div.media {
-        
-        -webkit-mask-image: linear-gradient(to top,
-            rgb(0 0 0 / 1),
-            rgb(0 0 0 / 0) 80%,
-            rgb(0 0 0 / 0));
-        mask-image: linear-gradient(to top,
-            rgb(0 0 0 / 1),
-            rgb(0 0 0 / 0) 80%,
-            rgb(0 0 0 / 0));
-    
+    .text > h2 {
+        font-size: 1.5em;
     }
 
+    .text > p {
+        font-size: 1em;
+    }
+
+    .media {
+        width: 100vw;
+    }
+
+    .media {
+        -webkit-mask-image: linear-gradient(to top,rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 40%,rgb(0 0 0 / 0));
+        mask-image: linear-gradient(to top, rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 40%,rgb(0 0 0 / 0)); 
+    }
 }
 
 @media screen and (max-width: 1024px) {
