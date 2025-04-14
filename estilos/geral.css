@@ -78,21 +78,6 @@ nav > ul > li > a {
     padding: 3px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.077);
 
-    position: relative;
-
-    &::before {
-        position: absolute;
-        content: '';
-        width: 0;
-        height: 0;
-        bottom: 0;
-        left: 0;
-        background-color: white;
-        transform: translateY(100%);
-        transition: transform .5s ease;
-    
-    }
-
     &:hover {
         color: white;
         transition-duration: .3s;
@@ -145,18 +130,16 @@ section.text-media {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-
     margin-inline: 1rem;
 }
 
 .text > h2 , p{
     line-height: 1.5;
-    padding-inline: 1rem;
+    padding-inline: 2rem;
     text-wrap: balance;
 }
 
 .text > h2 {
-    text-wrap: balance;
     font-size: 2.5em;
     margin-bottom: 1rem;
 }
