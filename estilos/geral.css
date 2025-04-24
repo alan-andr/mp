@@ -74,13 +74,13 @@ nav > ul > li > a {
     text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1em;
-    color: black;
+    color: white;
     padding: 3px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.077);
 
     &:hover {
-        color: white;
-        transition-duration: .3s;
+        color: rgb(50, 50, 50);
+        transition-duration: .5s;
     }
 
 }
@@ -132,7 +132,7 @@ section.text-media {
 }
 
 .text {
-    background: linear-gradient(100deg, #FF7500, #FF9E00, #FE4900);
+    background: linear-gradient(45deg, #FF7500, #FF9E00, #FE4900);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -162,6 +162,48 @@ section.text-media {
 .media {
     -webkit-mask-image: linear-gradient(to left,rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 80%,rgb(0 0 0 / 0));
     mask-image: linear-gradient(to left, rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 80%,rgb(0 0 0 / 0)); 
+}
+
+section.skills {
+    background-color: rgb(162, 162, 162);
+    padding-inline: 1rem;
+    height: 100%;
+    padding: 0 0 60px 0;
+
+    background: linear-gradient(360deg, #FDA100, red);
+}
+
+section.skills > h3 {
+    padding: 50px 0;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.card {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.433);
+}
+
+div.card > h4, p {
+    padding: 10px;
+}
+
+div.card > h4 {
+    margin: 10px 0;
+}
+
+div.card > img {
+    border-radius: 5%;
 }
 
 

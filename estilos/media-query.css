@@ -83,6 +83,18 @@ Grandes telas: 1367px ou acima  */
         -webkit-mask-image: linear-gradient(to top,rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 40%,rgb(0 0 0 / 0));
         mask-image: linear-gradient(to top, rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 40%,rgb(0 0 0 / 0)); 
     }
+
+    section.skills {
+        height: 100%;
+    }
+
+    div.cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
