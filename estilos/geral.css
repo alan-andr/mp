@@ -170,7 +170,6 @@ section.skills {
     height: 100%;
     padding: 0 0 60px 0;
 
-    background: linear-gradient(360deg, #FDA100, red);
 }
 
 section.skills > h3 {
@@ -187,8 +186,8 @@ div.cards {
 
 div.card {
     text-align: center;
-    background-color: black;
-    color: white;
+    background: white;
+    color: black;
     border-radius: 10px;
     position: relative;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.433);
