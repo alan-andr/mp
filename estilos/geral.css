@@ -193,10 +193,10 @@ div.cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: auto;
 }
 
 div.card {
+    height: 500px;
     text-align: center;
     background: black;
     color: rgb(241, 234, 234);
@@ -212,7 +212,16 @@ div.card > h4, p {
 }
 
 div.card > h4 {
+    font-size: 1.2em;
     margin: 10px 0;
+    background-image: linear-gradient(45deg, #FDA100, #FF0100);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+div.card > p {
+    margin: auto;
+    width: 250px;
 }
 
 div.card > img {
