@@ -50,7 +50,8 @@ Grandes telas: 1367px ou acima  */
     }
     
     section.skills > h3 {
-        font-size: 1.5em;
+        font-size: 1.3em;
+        text-wrap: balance;
     }
 }
 

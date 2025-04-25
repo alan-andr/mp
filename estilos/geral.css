@@ -93,7 +93,7 @@ ul.sidebar {
     width: 250px;
     height: 100vh;
     
-    background: linear-gradient(90deg, #FE5A00,#FDA100);
+    background: linear-gradient(90deg, #fe59005b,#FDA100);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.082);
 
@@ -214,14 +214,16 @@ div.card > h4, p {
 div.card > h4 {
     font-size: 1.2em;
     margin: 10px 0;
-    background-image: linear-gradient(45deg, #FDA100, #FF0100);
-    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #FDA100, #fb4646, #FDA100);
+    background-clip: text;
     color: transparent;
 }
 
 div.card > p {
-    margin: auto;
+    margin-inline: 2em;
     width: 250px;
+    line-height: 1.5;
+    line-break: auto;
 }
 
 div.card > img {
