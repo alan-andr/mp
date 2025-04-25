@@ -43,8 +43,8 @@ Grandes telas: 1367px ou acima  */
         mask-image: linear-gradient(to top, rgb(0 0 0 / 1),rgb(0 0 0 / 0.6) 40%,rgb(0 0 0 / 0)); 
     }
     
-    section.skilss > h3 {
-        font-size: 1.3em;
+    section.skills > h3 {
+        font-size: 1.5em;
     }
 }
 
