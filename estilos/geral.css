@@ -79,7 +79,7 @@ nav > ul > li > a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.077);
 
     &:hover {
-        color: rgb(50, 50, 50);
+        color: black;
         transition-duration: .5s;
     }
 
@@ -93,7 +93,7 @@ ul.sidebar {
     width: 250px;
     height: 100vh;
     
-    background: linear-gradient(90deg, #fe59005b,#FDA100);
+    background: linear-gradient(90deg, #fe59008d,#fda0008b);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.082);
 
@@ -214,7 +214,7 @@ div.card > h4, p {
 div.card > h4 {
     font-size: 1.2em;
     margin: 10px 0;
-    background-image: linear-gradient(45deg, #FDA100, #fb4646, #FDA100);
+    background-image: linear-gradient(180deg, #FDA100, #df5e5e);
     background-clip: text;
     color: transparent;
 }
